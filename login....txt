@@ -1,4 +1,4 @@
-function identify prime (num)
+function identify prime (num){
 
 let count=0;
 for(let i=1;i<=num;i++){
@@ -7,26 +7,23 @@ count++;
 }
 }
 if(count==2){
-console.log(yes)
+console.log("Yes")
 }else{
-console.log(no)
+console.log("No")
 }
 }
 
 
 
-
- function checkpalindrome(N,str)
+function checkpalindrome(N,str)
 
 let bag="";
 for(let i=N-1;i>=0;i--){
 bag=bag+str[i];
 }if(bag==str){
-
-console.log(no);
+console.log("Yes");
 }else{
-
-console.log(yes)
+console.log("No")
 }
 }
 

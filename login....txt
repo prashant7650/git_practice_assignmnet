@@ -1,0 +1,33 @@
+function identify prime (num)
+
+let count=0;
+for(let i=1;i<=num;i++){
+if(num%i==0){
+count++;
+}
+}
+if(count==2){
+console.log(yes)
+}else{
+console.log(no)
+}
+}
+
+
+
+
+ function checkpalindrome(N,str)
+
+let bag="";
+for(let i=N-1;i>=0;i--){
+bag=bag+str[i];
+}if(bag==str){
+
+console.log(no);
+}else{
+
+console.log(yes)
+}
+}
+
+
